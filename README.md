@@ -36,14 +36,15 @@ Protecting a speaker's physical identity should not mean lowering the bar for tr
 ### Which AI techniques will be helpful?
 1. **Neural Facial Transforms (Generative AI):** Real-time keypoint tracking and diffusion models that map facial micro-expressions onto disarming visual filters (e.g., hyper-realistic baby or elderly transforms) for both the host and occasional guests.
 2. **Voice Timbre Alteration with Cadence Preservation:** Audio AI models that modify vocal acoustics to prevent biometric identification while preserving natural speech rhythm, breathing, and dry humor.
-3. **Intuitive Counter-Weight & Editorial AI (LLM Agent):** A pre-publication pipeline that scans scripts and video audio, asking the creator clarifying questions, pointing out logical leaps, flagging legal risks (e.g., defamation), and evaluating claim legitimacy.
-4. **Zero-Knowledge (ZK) Credibility Badging:** On-screen cryptographic badges (e.g., *"Verified Political Science Scholar"*) that prove real-world credentials to viewers without revealing names.
+3. **Autonomous Multi-Agent Backend:** A departmental network of specialized AI agents (acting as Chief of Staff, Creative Director, Legal Counsel, and Accounting) operating seamlessly behind the scenes to streamline operations, manage administrative overhead, and flag risks prior to publication.
+4. **Intuitive Counter-Weight & Editorial AI (LLM Agent):** A pre-publication pipeline that scans scripts and video audio, asking the creator clarifying questions, pointing out logical leaps, flagging legal risks (e.g., defamation), and evaluating claim legitimacy for human approval.
+5. **Zero-Knowledge (ZK) Credibility Badging:** On-screen cryptographic badges (e.g., *"Verified Political Science Scholar"*) that prove real-world credentials to viewers without revealing names.
 
 ## How is it used?
 
 ### Context and Workflow
 1. **Creation & Anonymization:** The host (or guest) records video commentary. The AI pipeline applies facial transforms and voice timbre modifications.
-2. **Editorial & Legal Vetting:** Before export, the AI co-pilot reviews the content. It presents critical counter-arguments, highlights unverified claims, and asks the creator clarifying questions to refine their delivery and prevent errors.
+2. **Multi-Agent Editorial & Legal Vetting:** Before export, the multi-agent backend reviews the content. The Chief of Staff and Legal/Creative agents present critical counter-arguments, highlight unverified claims, and ask the creator clarifying questions for final human sign-off.
 3. **One-Directional Broadcast:** The finalized clip is published to public platforms (YouTube, X, Instagram).
 4. **Audience Engagement:** Viewers engage in standard social media comment sections. The creator shares perspectives as a one-directional broadcast, avoiding endless comment arguments or bot debates.
 
@@ -51,6 +52,6 @@ Protecting a speaker's physical identity should not mean lowering the bar for tr
 graph TD
     A[Creator Records Video] --> B[AI Neural Facial Transform]
     A --> C[Voice Timbre Alteration]
-    B & C --> D[AI Editorial & Legal Vetting Agent]
+    B & C --> D[Multi-Agent Backend & Vetting]
     D --> E[Zero-Knowledge Credibility Badging]
     E --> F[One-Directional Broadcast to Social Media]
