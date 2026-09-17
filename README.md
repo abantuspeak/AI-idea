@@ -26,6 +26,14 @@ The process follows a structured, four-step creation and broadcast workflow:
 3. **One-Directional Broadcast:** The finalized clip is published to public social platforms (YouTube, X, Instagram).
 4. **Reflective Audience Engagement:** Viewers interact in comment sections guided by a unique prompt: *comment specifically on the opposing view to challenge yourself*.
 
+```mermaid
+graph TD
+    A[Creator Records Video] --> B[AI Neural Facial Transform]
+    A --> C[Voice Timbre Alteration]
+    B & C --> D[AI Editorial & Legal Vetting Agent]
+    D --> E[Zero-Knowledge Credibility Badging]
+    E --> F[One-Directional Broadcast to Social Media]
+
 This solution serves privacy-conscious commentators seeking physical security, while providing global viewers with well-reasoned, disarming perspectives.
 
 ## Data sources and AI methods
